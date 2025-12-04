@@ -19,7 +19,7 @@ export default defineConfig({
       "@assets": path.resolve(__dirname, "./src/assets"),
     },
   },
-  server: {
+  /*server: {
     proxy: {
       "/api": {
         target: "https://www.freetogame.com",
@@ -28,5 +28,5 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api/, "/api"),
       },
     },
-  },
+  },*/
 });
